@@ -1,0 +1,127 @@
+h1{
+    background-color: #2D2D2D;
+    color: white;
+    text-align: center;
+}
+.content
+{
+    width: 1000px;
+    height: 250px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+#image
+{
+  
+ 
+    width: 200px;
+    background-color: white;
+    position: relative;
+    
+    background-image: url(apj.webp);
+    background-size: cover;
+ 
+    max-width: 100%;
+    height: auto;
+  
+}
+#text
+ {
+    width: 100%;
+    position: relative;
+    left: 20px;
+    margin: 0px;
+    text-align: center;
+    
+
+}
+ul
+{
+    list-style-type:"🔥";
+    
+}
+.achivement
+{
+    width: 1000px;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+@media ( max-width : 800px)
+
+{
+    h1
+    {
+       text-align:justify;
+       position: sticky;
+       right: 50px;
+       width: 270px;
+       color: azure;
+    }
+
+    .content{
+        background-color: lemonchiffon;
+        display:block;
+        
+        width: 300px;
+        height: 600px;
+       
+      
+
+    }
+    #image
+    {
+        width: 270px;
+        height: 300px;
+        position: relative;
+        top: 10px;
+        left: 15px;
+        
+    }
+
+    .text
+    {
+        position: relative;
+       text-align: center;
+       display: block;
+       
+    }
+
+    #Name
+    {
+        background-color:wheat;
+        width: 270px;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    
+    }
+ 
+    #para
+    {
+        background-color: blanchedalmond;
+        width: 280px;
+        height: auto;
+        position: relative;
+        left:15px;
+        word-spacing: 5px;
+        line-height: 25px;
+
+    }
+    #h2
+    {
+        background-color: tan;
+        width: 125px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    .achivement
+    {
+        background-color:khaki;
+        width: 300px;
+        height: auto;
+    }
+
+}
